@@ -1,0 +1,346 @@
+.body_to{
+
+
+ /*   background: blue;*/
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.body_to .t_right{
+
+    width: 45%;
+    margin: 60px;
+/*    background: red;*/
+    transform-origin: left; 
+    transform: scale(0.1); 
+    transition: opacity 1s ease, transform 1s ease; 
+
+
+}
+
+.body_to .t_right.animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+
+
+
+
+.t_right h1{
+
+    font-size: 2.5rem;
+    font-family:  Segoe UI;
+    font-weight: 650;
+    color: white;
+
+}
+
+.t_right h1 span{
+
+    font-size: 2.5rem;
+    font-family:  Segoe UI;
+    font-weight: 650;
+    color: red;
+}
+
+.t_right p{
+
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 20px;
+    font-family: Segoe UI Emoji;
+}
+
+
+.t_right .t_rightbtn{
+
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Segoe UI Emoji;
+    font-weight:bolder;
+}
+
+.t_right .t_rightbtn:hover{
+
+    background: red;
+    border: none;
+}
+
+
+/*imge animation*/
+.t_left img {
+    opacity: 0;
+    transform-origin: right; 
+    transform: scale(0); 
+    transition: opacity 1s ease, transform 1s ease; 
+}
+
+
+.t_left img.animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+/*end*/
+
+
+.t_left img{
+
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 412px){
+
+
+
+    .body_to{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+/*       background: blueviolet;*/
+        margin: auto;
+        padding: 0px;
+
+    }
+
+
+     .body_to .t_right{
+
+        text-align: center;
+/*        background: green;*/
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        padding: 50px;
+     }
+
+
+     .body_to .t_right h1{
+
+        font-size: 1.2rem;
+     }
+
+     .body_to .t_right h1 span{
+
+        font-size: 1.2rem;
+     }
+
+     .body_to .t_right p{
+
+        font-size: 0.8rem;
+     }
+
+     .t_right .t_rightbtn{
+
+         margin-top: 30px;
+         width: 120px;
+         height: 40px;
+         background: transparent;
+         border: 1px solid white;
+         color: white;
+         font-size: 0.8rem;
+         font-family: Segoe UI Emoji;
+         font-weight:bolder;
+         border-radius: 2px;
+}
+
+.t_left{
+    display: flex;
+    justify-content: center;
+}
+.t_left img{
+
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+}
+
+
+/*iphone xr*/
+
+@media (max-width: 415px){
+
+
+
+    .body_to{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+/*       background: blueviolet;*/
+        margin: auto;
+        padding: 0px;
+
+    }
+
+
+     .body_to .t_right{
+
+        text-align: center;
+/*        background: green;*/
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        padding: 50px;
+     }
+
+
+     .body_to .t_right h1{
+
+        font-size: 1.2rem;
+     }
+
+     .body_to .t_right h1 span{
+
+        font-size: 1.2rem;
+     }
+
+     .body_to .t_right p{
+
+        font-size: 0.8rem;
+     }
+
+     .t_right .t_rightbtn{
+
+         margin-top: 30px;
+         width: 120px;
+         height: 40px;
+         background: transparent;
+         border: 1px solid white;
+         color: white;
+         font-size: 0.8rem;
+         font-family: Segoe UI Emoji;
+         font-weight:bolder;
+         border-radius: 2px;
+}
+
+.t_left{
+    display: flex;
+    justify-content: center;
+}
+.t_left img{
+
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+}
+
+/*iphone 12 pro max*/
+
+
+@media (max-width: 431px){
+
+
+
+    .body_to{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+/*       background: blueviolet;*/
+        margin: auto;
+        padding: 0px;
+
+    }
+
+
+     .body_to .t_right{
+
+        text-align: center;
+/*        background: green;*/
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        padding: 50px;
+     }
+
+
+     .body_to .t_right h1{
+
+        font-size: 1.2rem;
+     }
+
+     .body_to .t_right h1 span{
+
+        font-size: 1.2rem;
+     }
+
+     .body_to .t_right p{
+
+        font-size: 0.8rem;
+     }
+
+     .t_right .t_rightbtn{
+
+         margin-top: 30px;
+         width: 120px;
+         height: 40px;
+         background: transparent;
+         border: 1px solid white;
+         color: white;
+         font-size: 0.8rem;
+         font-family: Segoe UI Emoji;
+         font-weight:bolder;
+         border-radius: 2px;
+}
+
+.t_left{
+    display: flex;
+    justify-content: center;
+}
+.t_left img{
+
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+}

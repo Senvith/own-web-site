@@ -1,0 +1,332 @@
+.body_tov{
+
+
+ /*   background: blue;*/
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.body_tov .t_rightv{
+
+    width: 45%;
+    margin: 60px;
+
+}
+
+
+
+.t_rightv h1{
+
+    font-size: 2.5rem;
+    font-family:  Segoe UI;
+    font-weight: 650;
+    color: white;
+
+}
+
+.t_rightv h1 span{
+
+    font-size: 2.5rem;
+    font-family:  Segoe UI;
+    font-weight: 650;
+    color: red;
+}
+
+.t_rightv p{
+
+    font-size: 1.1rem;
+    color: white;
+    margin-top: 20px;
+    font-family: Segoe UI Emoji;
+}
+
+
+.t_rightv .t_rightbtnv{
+
+    margin-top: 30px;
+    width: 160px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 1.1rem;
+    font-family: Segoe UI Emoji;
+    font-weight:bolder;
+}
+
+.t_rightv .t_rightbtnv:hover{
+
+    background: red;
+    border: none;
+}
+
+
+/*imge animation*/
+.t_leftv img {
+    opacity: 0;
+    transform-origin: left; 
+    transform: scale(0); 
+    transition: opacity 1s ease, transform 1s ease; 
+}
+
+/* Animation class to apply when in view */
+.t_leftv img.animate {
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+/*end*/
+
+
+.t_leftv img{
+
+    width: 85%;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+
+@media (max-width: 412px){
+
+
+
+    .body_tov{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+/*       background: blueviolet;*/
+        margin: auto;
+        padding: 0px;
+
+    }
+
+
+     .body_tov .t_rightv{
+
+        text-align: center;
+/*        background: green;*/
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        padding: 50px;
+     }
+
+
+     .body_tov .t_rightv h1{
+
+        font-size: 1.2rem;
+     }
+
+     .body_tov .t_rightv h1 span{
+
+        font-size: 1.2rem;
+     }
+
+     .body_tov .t_rightv p{
+
+        font-size: 0.8rem;
+     }
+
+     .t_rightv .t_rightbtnv{
+
+         margin-top: 30px;
+         width: 120px;
+         height: 40px;
+         background: transparent;
+         border: 1px solid white;
+         color: white;
+         font-size: 0.8rem;
+         font-family: Segoe UI Emoji;
+         font-weight:bolder;
+         border-radius: 2px;
+}
+
+.t_leftv{
+    display: flex;
+    justify-content: center;
+}
+.t_leftv img{
+
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+}
+
+/*iphone xr*/
+
+@media (max-width: 415px){
+
+
+
+    .body_tov{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+/*       background: blueviolet;*/
+        margin: auto;
+        padding: 0px;
+
+    }
+
+
+     .body_tov .t_rightv{
+
+        text-align: center;
+/*        background: green;*/
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        padding: 50px;
+     }
+
+
+     .body_tov .t_rightv h1{
+
+        font-size: 1.2rem;
+     }
+
+     .body_tov .t_rightv h1 span{
+
+        font-size: 1.2rem;
+     }
+
+     .body_tov .t_rightv p{
+
+        font-size: 0.8rem;
+     }
+
+     .t_rightv .t_rightbtnv{
+
+         margin-top: 30px;
+         width: 120px;
+         height: 40px;
+         background: transparent;
+         border: 1px solid white;
+         color: white;
+         font-size: 0.8rem;
+         font-family: Segoe UI Emoji;
+         font-weight:bolder;
+         border-radius: 2px;
+}
+
+.t_leftv{
+    display: flex;
+    justify-content: center;
+}
+.t_leftv img{
+
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+}
+
+/*iphone 14 pro max*/
+
+
+@media (max-width: 431px){
+
+
+
+    .body_tov{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+/*       background: blueviolet;*/
+        margin: auto;
+        padding: 0px;
+
+    }
+
+
+     .body_tov .t_rightv{
+
+        text-align: center;
+/*        background: green;*/
+        margin: auto;
+        justify-content: center;
+        justify-items: center;
+        width: 100%;
+        padding: 50px;
+     }
+
+
+     .body_tov .t_rightv h1{
+
+        font-size: 1.2rem;
+     }
+
+     .body_tov .t_rightv h1 span{
+
+        font-size: 1.2rem;
+     }
+
+     .body_tov .t_rightv p{
+
+        font-size: 0.8rem;
+     }
+
+     .t_rightv .t_rightbtnv{
+
+         margin-top: 30px;
+         width: 120px;
+         height: 40px;
+         background: transparent;
+         border: 1px solid white;
+         color: white;
+         font-size: 0.8rem;
+         font-family: Segoe UI Emoji;
+         font-weight:bolder;
+         border-radius: 2px;
+}
+
+.t_leftv{
+    display: flex;
+    justify-content: center;
+}
+.t_leftv img{
+
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+}
+
